@@ -1,0 +1,47 @@
+/* Small Screen */
+
+.character {
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #02d3fb;
+    text-decoration: none;
+  }
+  
+  .img-c {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+      color: #64748b;
+  }
+  
+  .Link {
+    color: #02d3fb;
+      text-decoration: none;
+  }
+  
+  
+  /* Medium Screen */
+  
+  @media (min-width: 768px) {
+      .movie {
+          flex-basis: 50%;
+      }
+  }
+  
+  
+  /* Large Screen */
+  
+  @media (min-width: 992px) {
+      .movie {
+          flex-basis: 25%;
+          padding: 1rem;
+      }
+  }
